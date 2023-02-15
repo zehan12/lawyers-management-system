@@ -1,0 +1,68 @@
+.site-layout-content {
+  min-height: 280px;
+  height: 100%;
+  padding: 24px;
+  background: #fff;
+}
+
+.logo {
+  float: left;
+  width: 120px;
+  height: 100%;
+  margin: 0 24px 16px 0;
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.logo-image {
+  height: 100%;
+}
+
+.logo-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.layout {
+  min-height: 100vh !important;
+}
+
+.content {
+  background: #fff;
+  padding: 0 50px;
+}
+
+.header {
+  background-color: #7e1232 !important;
+}
+
+.firms-list {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-gap: 16px;
+}
+
+.add-firm-card > .ant-card-body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  font-size: large;
+  color: #7e1232;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 16px;
+}
+
+.site-drawer-render-in-current-wrapper {
+  position: relative;
+  height: 200px;
+  padding: 48px;
+  overflow: hidden;
+  background: #fafafa;
+  border: 1px solid #ebedf0;
+  border-radius: 2px;
+}

@@ -1,0 +1,37 @@
+@import "react-toastify/dist/ReactToastify.css";
+
+:root {
+  --toastify-color-success: #00c851;
+  --toastify-color-error: #ff4444;
+
+  --toastify-icon-color-success: var(--toastify-color-success);
+  --toastify-icon-color-error: var(--toastify-color-error);
+  --toastify-color-progress-light: linear-gradient(
+    to right,
+    #4cd964,
+    #5ac8fa,
+    #007aff,
+    #34aadc,
+    #5856d6,
+    #ff2d55,
+    #bb86fc
+  );
+  --toastify-color-progress-success: linear-gradient(
+    to right,
+    #badda5,
+    #40b49d,
+    #82c99d,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  --toastify-color-progress-error: linear-gradient(
+    to right,
+    #da55bd,
+    #ea3c9e,
+    #f3217c,
+    #f30657,
+    #eb1230
+  );
+}
